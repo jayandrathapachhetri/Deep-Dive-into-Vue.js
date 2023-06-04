@@ -1,17 +1,22 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "jay",
+      "name": "Jay",
       "email": "jay@test.com",
-      "password": "jay@123"
+      "password": "jay@123",
+      "id": 1
     },
-    
     {
-      "name": "suren",
-      "email": "suren@test.com",
-      "password": "suren@123",
+      "name": "jayen",
+      "email": "jayan@test.com",
+      "password": "letssee",
       "id": 2
+    },
+    {
+      "name": "Bharda",
+      "email": "bharda@test.com",
+      "password": "bharda@123",
+      "id": 3
     }
   ]
 }

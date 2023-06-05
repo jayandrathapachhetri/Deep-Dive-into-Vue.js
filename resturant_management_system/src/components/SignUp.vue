@@ -32,12 +32,19 @@ export default {
             console.warn(result);
             if (result.status == 201) {
                 alert("Sign Up Done")
+                localStorage.setItem("user-info", JSON.stringify(result.data))
+                //redirect to Home page
+                this.$router.push({
+                    name: 'HomePage'
+                })
             }
-            localStorage.setItem("user-info",JSON.stringify(result.data))
-            //redirect to Home page
+        }
+    },
+    mounted(){
+        let user = localStorage.getItem("user-info");
+        if (user) {
             this.$router.push({name:'HomePage'})
         }
-
     }
 }
 </script>

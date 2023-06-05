@@ -34,6 +34,8 @@ export default {
                 alert("Sign Up Done")
             }
             localStorage.setItem("user-info",JSON.stringify(result.data))
+            //redirect to Home page
+            this.$router.push({name:'HomePage'})
         }
 
     }

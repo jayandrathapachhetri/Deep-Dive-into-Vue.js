@@ -1,18 +1,24 @@
 <template>
-    <div>
-      <h1 style="color: blue;">Welocome to Home Page</h1>
-    </div>
+<AppHeader />
+<h1>Home Page</h1>
 </template>
-  
+
 <script>
+import AppHeader from './AppHeader.vue';
 export default {
-  name: "HomePage",
-  mounted(){
+    name: "HomePage",
+
+    components: {
+        AppHeader
+    },
+
+    mounted() {
         let user = localStorage.getItem("user-info");
         if (!user) {
-            this.$router.push({name:'SignUp'})
+            this.$router.push({
+                name: 'SignUp'
+            })
         }
     }
 }
 </script>
- 

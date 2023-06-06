@@ -17,6 +17,24 @@
       "email": "bharda@test.com",
       "password": "bharda@123",
       "id": 3
+    },
+    {
+      "name": "alex",
+      "email": "alex@test.com",
+      "password": "alex@123",
+      "id": 4
+    },
+    {
+      "name": "kalpana",
+      "email": "kalpana@test.com",
+      "password": "kalpana@123",
+      "id": 5
+    },
+    {
+      "name": "sushil",
+      "email": "sushil@test.com",
+      "password": "sushil@123",
+      "id": 6
     }
   ]
 }

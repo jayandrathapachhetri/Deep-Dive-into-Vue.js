@@ -47,6 +47,12 @@
       "email": "alex1@test.com",
       "password": "alex1@123",
       "id": 8
+    },
+    {
+      "name": "Niroj Lama",
+      "email": "niroj@test.com",
+      "password": "niroj@123",
+      "id": 9
     }
   ],
   "restaurant": [
@@ -69,18 +75,6 @@
       "id": 3
     },
     {
-      "name": "Rosted Food ",
-      "address": "Maitidevi",
-      "contact": "9863467790",
-      "id": 4
-    },
-    {
-      "name": "Rosted Food ",
-      "address": "Maitidevi",
-      "contact": "9863467790",
-      "id": 5
-    },
-    {
       "name": "Fast Food ",
       "address": "Lalitpur",
       "contact": "9845621738",
@@ -91,6 +85,18 @@
       "address": "Kalopul",
       "contact": "9874563214",
       "id": 7
+    },
+    {
+      "name": "The Rising Cafe",
+      "address": "NayaBaneshor",
+      "contact": "9863584612",
+      "id": 8
+    },
+    {
+      "name": "Ktm Restaurant",
+      "address": "Gausala",
+      "contact": "9875641237",
+      "id": 9
     }
   ]
 }

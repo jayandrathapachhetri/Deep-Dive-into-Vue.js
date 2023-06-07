@@ -1,6 +1,6 @@
 <template>
 <AppHeader />
-<h1>Home Page</h1>
+<h1>Hello {{name}}, Welcome to Home Page</h1>
 </template>
 
 <script>
@@ -12,8 +12,15 @@ export default {
         AppHeader
     },
 
+    data() {
+        return {
+            name: ''
+        }
+    },
+
     mounted() {
         let user = localStorage.getItem("user-info");
+        this.name = JSON.parse(user).name
         if (!user) {
             this.$router.push({
                 name: 'SignUp'

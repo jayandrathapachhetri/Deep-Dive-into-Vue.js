@@ -67,6 +67,30 @@
       "address": "Kathmandu",
       "contact": "9865789412",
       "id": 3
+    },
+    {
+      "name": "Rosted Food ",
+      "address": "Maitidevi",
+      "contact": "9863467790",
+      "id": 4
+    },
+    {
+      "name": "Rosted Food ",
+      "address": "Maitidevi",
+      "contact": "9863467790",
+      "id": 5
+    },
+    {
+      "name": "Fast Food ",
+      "address": "Lalitpur",
+      "contact": "9845621738",
+      "id": 6
+    },
+    {
+      "name": "Real Feel Resturant",
+      "address": "Kalopul",
+      "contact": "9874563214",
+      "id": 7
     }
   ]
 }

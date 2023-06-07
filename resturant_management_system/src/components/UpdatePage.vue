@@ -28,6 +28,20 @@ export default {
             }
         }
     },
+    methods: {
+        async updateRestaurant(){
+            // console.warn(this.restaurant)
+            const result = await axios.put("http://localhost:3000/restaurant"+this.$route.params.id,{
+                name: this.restaurant.name,
+                address: this.restaurant.address,
+                contact: this.restaurant.contact
+            });
+            if(result.status==200){
+                this.$router.push({name:"'HomePage'"});
+            }
+            // console.warn("function called", this.restaurant)
+        }
+    },  
 
     async mounted() {
         let user = localStorage.getItem("user-info");

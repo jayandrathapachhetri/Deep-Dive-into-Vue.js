@@ -1,6 +1,6 @@
 <template>
 <AppHeader />
-<h1>Add Resturant Page</h1>
+<h1>Add Resturant Information</h1>
 <form class="add">
     <input type="text" placeholder="Enter Name" v-model="restaurant.name" name="name">
     <input type="text" placeholder="Enter Address" v-model="restaurant.address" name="address">

@@ -48,5 +48,25 @@
       "password": "alex1@123",
       "id": 8
     }
+  ],
+  "restaurant": [
+    {
+      "name": "KFC",
+      "address": "Kathmandu",
+      "contact": "9863458792",
+      "id": 1
+    },
+    {
+      "name": "FoodMandu",
+      "address": "Kathmandu",
+      "contact": "9858749611",
+      "id": 2
+    },
+    {
+      "name": "Bojan",
+      "address": "Kathmandu",
+      "contact": "9865789412",
+      "id": 3
+    }
   ]
 }

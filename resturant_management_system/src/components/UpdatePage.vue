@@ -11,6 +11,7 @@
 
     
 <script>
+import axios from 'axios';
 import AppHeader from './AppHeader.vue';
 export default {
     name: "UpdatePage",
@@ -28,13 +29,17 @@ export default {
         }
     },
 
-    mounted() {
+    async mounted() {
         let user = localStorage.getItem("user-info");
         if (!user) {
             this.$router.push({
                 name: 'SignUp'
             })
         }
+        let result = await axios.get("http://localhost:3000/restaurant/"+this.$route.params.id);
+        // console.warn(this.$route.params.id)
+        // console.warn(result)
+        this.restaurant = result.data;
     }
 }
 </script>

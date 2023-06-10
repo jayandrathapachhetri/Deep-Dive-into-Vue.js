@@ -53,31 +53,25 @@
       "email": "niroj@test.com",
       "password": "niroj@123",
       "id": 9
+    },
+    {
+      "name": "Shree",
+      "email": "shree@test123",
+      "password": "ahree@123",
+      "id": 10
     }
   ],
   "restaurant": [
     {
-      "name": "KFC",
-      "address": "Kathmandu",
-      "contact": "9863458792",
+      "name": "KFC Update",
+      "address": "Kathmandu near maitidevi",
+      "contact": "98634587125",
       "id": 1
     },
     {
-      "name": "FoodMandu",
-      "address": "Kathmandu",
-      "contact": "9858749611",
-      "id": 2
-    },
-    {
-      "name": "Bojan",
-      "address": "Kathmandu",
-      "contact": "9865789412",
-      "id": 3
-    },
-    {
-      "name": "Fast Food ",
-      "address": "Lalitpur",
-      "contact": "9845621738",
+      "name": "The Fast Food ",
+      "address": "the Lalitpur",
+      "contact": "98456299999",
       "id": 6
     },
     {
@@ -87,9 +81,9 @@
       "id": 7
     },
     {
-      "name": "The Rising Cafe",
+      "name": "The Rising ",
       "address": "NayaBaneshor",
-      "contact": "9863584612",
+      "contact": "9863584658",
       "id": 8
     },
     {
@@ -97,6 +91,12 @@
       "address": "Gausala",
       "contact": "9875641237",
       "id": 9
+    },
+    {
+      "name": "The Maitidevi Restaurant",
+      "address": "Gausala",
+      "contact": "98465239999",
+      "id": 10
     }
   ]
 }
